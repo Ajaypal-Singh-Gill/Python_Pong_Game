@@ -1,6 +1,6 @@
 # Python_Pong_Game
 
-This is a multiplayer game. You can run this game at www.codeskulptor.org also. Just copy and paste the code there.
+This is an elementary multiplayer game. You can run this game at www.codeskulptor.org also. Just copy and paste the code there.
 
 To play the game, follow the following points:
 1- Use w,s keys for the first player and up,down keys for the second player to move the pads.
