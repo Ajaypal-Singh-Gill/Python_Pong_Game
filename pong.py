@@ -1,3 +1,5 @@
+# Pong game
+
 import simplegui
 import random
 
