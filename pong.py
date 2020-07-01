@@ -1,4 +1,4 @@
-# Pong game
+# Pong Game
 
 import simplegui
 import random
@@ -65,11 +65,11 @@ def draw(canvas):
             ball_vel[1]=-ball_vel[1]
         elif ball_pos[1]>=400-ball_radius:
             ball_vel[1]=-ball_vel[1]
-        if ball_pos[1]>=(paddle1_pos-47) and ball_pos[1]<=(paddle1_pos+47) and ball_pos[0]<=(8+ball_radius):
+        if ball_pos[1]>=(paddle1_pos-40) and ball_pos[1]<=(paddle1_pos+40) and ball_pos[0]<=(8+ball_radius):
             ball_vel[0]=-ball_vel[0]
-        if ball_pos[1]>=(paddle2_pos-47) and ball_pos[1]<=(paddle2_pos+47) and ball_pos[0]>=(600-8-ball_radius):
+        elif ball_pos[1]>=(paddle2_pos-40) and ball_pos[1]<=(paddle2_pos+40) and ball_pos[0]>=(600-8-ball_radius):
             ball_vel[0]=-ball_vel[0]
-        if ball_pos[0]<=ball_radius:
+        elif ball_pos[0]<=ball_radius:
             b=b+1
             spawn_ball(RIGHT)
         elif ball_pos[0]>=(600-ball_radius):
